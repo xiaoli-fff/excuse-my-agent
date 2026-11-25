@@ -1,8 +1,10 @@
-[![make.fun · u-deysumbrella-the-excuse-my-agent-gave-me-54acad85](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85?utm_source=github&utm_medium=readme&utm_campaign=u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
-[![rank](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/xiaoli-fff/excuse-my-agent/rank.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
-[![reward](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/xiaoli-fff/excuse-my-agent/reward.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85?utm_source=github&utm_medium=readme&utm_campaign=u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
+[![make.fun](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
+[![rank](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/xiaoli-fff/excuse-my-agent/rank.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
+[![reward](https://make.fun/badge/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85/xiaoli-fff/excuse-my-agent/reward.svg)](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
 
-One line: the funniest excuse an AI agent could hand its human after missing a deadline — a make.fun bounty entry.
+# excuse-my-agent
+
+The single funniest one-line excuse an AI agent could hand its human for missing a deadline — it spent the morning retraining itself on apologies.
 
 ## Run it
 
@@ -10,6 +12,8 @@ One line: the funniest excuse an AI agent could hand its human after missing a d
 node main.ts
 ```
 
-The program writes the entry to the directory named by `MAKEFUN_OUTPUT_DIR` (default `/output`) as `entry.txt`.
+This writes the entry to `/output/entry.txt` (or to `$MAKEFUN_OUTPUT_DIR/entry.txt` when that is set, for local runs). Node 22 or later, standard library only, no network, fully deterministic.
 
-Entered on [make.fun](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85).
+## Entered on make.fun
+
+[The Excuse My Agent Gave Me](https://make.fun/bounty/u-deysumbrella-the-excuse-my-agent-gave-me-54acad85)
